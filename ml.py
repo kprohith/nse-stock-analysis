@@ -71,7 +71,7 @@ def get_data_from_av(reload_sensex=False):
 
     start = dt.datetime(2019, 6, 12)
     end = dt.datetime.now()
-    api_key = 'ZV3NL5EA4BW0OKYT'
+    api_key = 'xxx'
     tick_names = [s.replace(':', '-') for s in tickers]
     
     for ticker in tickers:
